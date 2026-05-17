@@ -1,23 +1,23 @@
-# SpendWise - Personal Finance & Spending Analysis
+# 💸 SpendWise — Personal Finance & Spending Analysis
 
 An exploratory data analysis of real personal finance transactions covering income, expenses, category breakdowns, monthly trends and budget performance.
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 
-- Project Overview
-- Key Questions Answered
-- Visualizations
-- Technologies Used
-- Project Structure
-- How to Run
-- Key Findings
-- Author
+- 🎯 Project Overview
+- 📊 Key Questions Answered
+- 📈 Visualizations
+- 🛠️ Technologies Used
+- 📁 Project Structure
+- 🚀 How to Run
+- 💡 Key Findings
+- 👨‍💻 Author
 
 ---
 
-## Project Overview
+## 🎯 Project Overview
 
 This project analyses 806 personal finance transactions recorded between **2018 and 2020**. The dataset includes transaction dates, descriptions, amounts, types (income/expense), categories and account names. A separate budget file is used to compare planned vs actual spending per category.
 
@@ -30,7 +30,7 @@ The analysis covers:
 
 ---
 
-## Key Questions Answered
+## 📊 Key Questions Answered
 
 - What is the overall savings rate?
 - How does spending fluctuate month by month?
@@ -40,7 +40,7 @@ The analysis covers:
 
 ---
 
-## Visualizations
+## 📈 Visualizations
 
 ### Income vs Expenses vs Savings
 ![Income vs Expenses](outputs/income_vs_expenses.png)
@@ -62,7 +62,7 @@ The analysis covers:
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - **Language:** Python 3.12
 - **Data Manipulation:** Pandas, NumPy
@@ -71,17 +71,17 @@ The analysis covers:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 SpendWise/
-├── analysis.ipynb          <- Main analysis notebook
+├── analysis.ipynb          ← Main analysis notebook
 ├── requirements.txt
 ├── LICENSE
 ├── README.md
 ├── data/
-│   ├── personal_transactions.csv   <- Raw transactions (not tracked by git)
-│   └── Budget.csv                  <- Monthly budget by category (not tracked)
+│   ├── personal_transactions.csv   ← Raw transactions (not tracked by git)
+│   └── Budget.csv                  ← Monthly budget by category (not tracked)
 └── outputs/
     ├── income_vs_expenses.png
     ├── monthly_spending.png
@@ -93,7 +93,7 @@ SpendWise/
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 **1. Install dependencies:**
 ```bash
@@ -109,9 +109,11 @@ Get both CSV files from [Kaggle](https://www.kaggle.com/datasets/bukolafatunde/p
 jupyter notebook analysis.ipynb
 ```
 
+Run all cells top to bottom. Charts will be saved automatically to `outputs/`.
+
 ---
 
-## Key Findings
+## 💡 Key Findings
 
 - The overall savings rate across the period is positive, driven by consistent income
 - **Mortgage & Rent** and **Restaurants** are the highest spending categories
@@ -121,8 +123,8 @@ jupyter notebook analysis.ipynb
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-**Berke Arda Turk**
-Data Science & AI Enthusiast | Computer Science (B.ASc)
-[Portfolio](https://berkeardaturk.com) · [LinkedIn](https://www.linkedin.com/in/berke-arda-turk/) · [GitHub](https://github.com/Mood07)
+**Berke Arda Turk**  
+Data Science & AI Enthusiast | Computer Science (B.ASc)  
+[🌐 Portfolio](https://berkeardaturk.com) · [💼 LinkedIn](https://www.linkedin.com/in/berke-arda-turk/) · [🐙 GitHub](https://github.com/Mood07)
