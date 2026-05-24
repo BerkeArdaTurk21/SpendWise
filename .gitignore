@@ -1,6 +1,12 @@
 # Dataset
 data/
 
+# Database file
+spendwise.db
+
+# Temp folders
+ustmodel/
+
 # Jupyter
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
